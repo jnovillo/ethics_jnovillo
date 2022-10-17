@@ -73,7 +73,7 @@
         </button>
         <div class="collapse" id="account-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="https://github.com/hunter-teacher-cert/reg_assignments-jnovillo" class="link-dark d-inline-flex text-decoration-none rounded">Form</a></li>
+            <li><a data-bs-toggle="collapse" href="#form" class="link-dark d-inline-flex text-decoration-none rounded">Form</a></li>
           </ul>
         </div>
       </li>
@@ -105,8 +105,31 @@
             <p>Running along the southern edge of Cuenca’s historic center is a scenic stretch of the Tomebamba River. The river originates up in the mountains of Cajas National Park and flows onward down into the Amazon. On its way down the Andes, the river slices right through the middle of Cuenca.</p>
             <p>The Tomebamba River makes for a most pleasant place in Cuenca to take a leisurely stroll from right within the city center. The grassy riverbank is lined with trees that offer shade on sunny days, while colonial buildings loom above. There are a few cafes and restaurants with views along this section of the Tomebamba River. Don’t hesitate to pop in for a coffee, cerveza, or a snack.</p>
             <p>And if you happen to be in Cuenca on a Sunday, consider going for a bike ride along the Tomebamba River. Every Sunday morning here in Cuenca, the city provides hundreds of mountain bikes to residents and visitors for free. It’s known as Ruta Recreativa.</p>
-            <img src="images/tomebamba.jpg" alt="Tomebamba River">
+            <img src="images/tomebamba.jpg" alt="Tomebamba River" style="width:500px;height:600px;">
         </div>   
+        
+        <div class="collapse" id="form" data-bs-parent="#rightSide">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="name" class="form-control" id="name" aria-describedby="nameHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
         
         <div class="collapse" id="programmingTest2" data-bs-parent="#rightSide">
             <pre class="line-numbers"><code class="language-java">  public void add(int index, int value)
