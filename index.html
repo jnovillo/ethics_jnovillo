@@ -45,8 +45,8 @@
         </button>
         <div class="collapse" id="dashboard-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Typical Food</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">International Food</a></li>
+            <li><a href="#typicalFood" class="link-dark d-inline-flex text-decoration-none rounded">Typical Food</a></li>
+            <li><a href="#internationalFood" class="link-dark d-inline-flex text-decoration-none rounded">International Food</a></li>
           </ul>
         </div>
       </li>
@@ -56,10 +56,9 @@
         </button>
         <div class="collapse" id="orders-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Cajas National Park</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Centro Ecuestre Bellavista</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">El Chorro de Girón</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Gualaceo, Chordeleg, and Sigsig</a></li>
+            <li><a href="#cajas" class="link-dark d-inline-flex text-decoration-none rounded">Cajas National Park</a></li>
+            <li><a href="#chorro" class="link-dark d-inline-flex text-decoration-none rounded">El Chorro de Girón</a></li>
+            <li><a href="#gualaceo" class="link-dark d-inline-flex text-decoration-none rounded">Gualaceo, Chordeleg, and Sigsig</a></li>
             
           </ul>
         </div>
@@ -114,17 +113,89 @@
             <img src="images/tomebamba.jpg" alt="Tomebamba River" style="width:500px;height:600px;">
         </div>   
         <div class="collapse" id="panamaHats" data-bs-parent="#rightSide">
-            <h1></h1>
+            <h1>Learn About Cuenca’s Production of Panama Hats</h1>
             <p>Ecuador, not Panama, is the origin and production center to what is well-known around the world as the “Panama Hat.” The reason for this confusing name is because these Ecuadorian hats were being exported to Panama while the Panama Canal was being built in the early 1900s. Then US President Roosevelt visited the construction site and was photographed wearing the hat in Panama. Hence the name “Panama Hat” has stuck ever since.</p>
             <p>But make no mistake, this is purely an Ecuadorian product. The town of Montecristi lays claim to the birthplace of Panama hats. Yet it is Cuenca and the surrounding area that has become the largest producer of these hats, which are also known locally as sombreros de paja toquilla.</p>
             <p>So when visiting the city, a great thing to do in Cuenca is to learn about the delicate process it takes to produce these hats. You’ll see just how the hats are weaved with painstaking detail, entirely by hand. There are a few factories, “museums,” and shops around Cuenca to explore the craft of this truly Ecuadorian tradition.</p>
-            <img src="images/panama_hats.png" alt="Panama Hats" style="width:700px;height:600px;">
+            <img src="images/panama_hats.jpg" alt="Panama Hats" style="width:700px;height:600px;">
         </div>       
-        
-        
+        <div class="collapse" id="turi" data-bs-parent="#rightSide">
+            <h1>Take in Cuenca’s Sweeping Views from the Turi Viewpoint</h1>
+            <p>The Mirador de Turi is a lookout point perched high above the city, with spectacular views down below. Many of Cuenca’s churches and avenues can be easily seen from this high point located on the southern fringes of the city. It makes for a fantastic place for photos, whether attempting to capture the cityscape or to snap a few Cuenca selfies.</p>
+            <img src="images/turi.jpg" alt="Turi" style="width:700px;height:600px;">
+        </div>   
+        <div class="collapse" id="typicalFood" data-bs-parent="#rightSide">
+            <h1></h1>
+        </div>
+        <div class="collapse" id="internationalFood" data-bs-parent="#rightSide">
+            <h1></h1>
+        </div>
+        <div class="collapse" id="cajas" data-bs-parent="#rightSide">
+            <h1></h1>
+        </div>
+        <div class="collapse" id="chorro" data-bs-parent="#rightSide">
+            <h1></h1>
+        </div>
+        <div class="collapse" id="gualaceo" data-bs-parent="#rightSide">
+            <h1></h1>
+        </div>
         
         
         <div class="collapse" id="form" data-bs-parent="#rightSide">
+            <h1>Contact us</h1>
+            <p>For more information, please complete this form:</p>  
+            
+            <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+            
+        </div>
+        
+        
+        <div class="collapse" id="form1" data-bs-parent="#rightSide">
             <h1>Contact us</h1>
             <p>For more information, please complete this form:</p>
             <form>
